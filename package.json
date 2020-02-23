@@ -1,0 +1,23 @@
+{
+  "name": "apirestnodejs",
+  "version": "0.0.1",
+  "description": "Node API example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manaranjoc/APIRestNodeJS.git"
+  },
+  "author": "manaranjoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manaranjoc/APIRestNodeJS/issues"
+  },
+  "homepage": "https://github.com/manaranjoc/APIRestNodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
