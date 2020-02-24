@@ -5,6 +5,7 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const db = require('./database');
 
 const productionRoutes = require('./api/routes/production');
 const workerRoutes = require('./api/routes/worker');
