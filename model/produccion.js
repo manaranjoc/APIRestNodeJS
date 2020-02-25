@@ -2,6 +2,9 @@ const Sequelize = require('sequelize');
 const Model = Sequelize.Model;
 const db = require('../database');
 
+const Obrero = require('./obreros');
+const Esmeralda = require('./esmeraldas');
+
 class Produccion extends Model {}
 Produccion.init({
     id: {
@@ -35,7 +38,8 @@ Produccion.init({
     }
 }, {
     sequelize: db,
-    modelName: 'produccion'
+    modelName: 'produccion',
+    freezeTableName: true
 });
 
 module.exports = Produccion;
